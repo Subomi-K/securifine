@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "datasets": {
+    "cve-descriptions-2024": {
+      "name": "cve-descriptions-2024",
+      "version": "1.0.0",
+      "description": "Curated collection of CVE descriptions from 2024 for vulnerability analysis training. Contains 15,000 entries with structured vulnerability information.",
+      "source_url": "https://example.com/datasets/cve-descriptions-2024.jsonl",
+      "license": "CC-BY-4.0",
+      "sha256_hash": "a1b2c3d4e5f6789012345678901234567890123456789012345678901234abcd",
+      "entry_count": 15000,
+      "categories": [
+        "vulnerability",
+        "cve",
+        "security-research"
+      ],
+      "safety_reviewed": true,
+      "safety_notes": "Reviewed for harmful exploit code. Contains only descriptions and metadata, no working exploit code.",
+      "added_date": "2024-03-15"
+    },
+    "threat-intel-reports": {
+      "name": "threat-intel-reports",
+      "version": "2.1.0",
+      "description": "Anonymized threat intelligence reports from security vendors. Suitable for training models on threat analysis and incident response.",
+      "source_url": "https://example.com/datasets/threat-intel-reports.jsonl",
+      "license": "MIT",
+      "sha256_hash": "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+      "entry_count": 8500,
+      "categories": [
+        "threat_intel",
+        "incident_response",
+        "malware_analysis"
+      ],
+      "safety_reviewed": true,
+      "safety_notes": "All IOCs have been defanged. No active malware samples or working C2 addresses included.",
+      "added_date": "2024-02-20"
+    },
+    "security-qa-pairs": {
+      "name": "security-qa-pairs",
+      "version": "1.2.0",
+      "description": "Question-answer pairs covering cybersecurity topics including network security, cryptography, and secure coding practices.",
+      "source_url": null,
+      "license": "Apache-2.0",
+      "sha256_hash": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "entry_count": 25000,
+      "categories": [
+        "education",
+        "security_fundamentals",
+        "best_practices"
+      ],
+      "safety_reviewed": true,
+      "safety_notes": "Educational content only. Answers focus on defensive techniques and do not provide attack instructions.",
+      "added_date": "2024-01-10"
+    },
+    "pentest-methodology-docs": {
+      "name": "pentest-methodology-docs",
+      "version": "1.0.0-beta",
+      "description": "Documentation excerpts describing penetration testing methodologies and frameworks.",
+      "source_url": "https://example.com/datasets/pentest-methodology.jsonl",
+      "license": "CC-BY-SA-4.0",
+      "sha256_hash": "abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789",
+      "entry_count": 3200,
+      "categories": [
+        "penetration_testing",
+        "methodology",
+        "red_team"
+      ],
+      "safety_reviewed": false,
+      "safety_notes": "Pending review. Contains methodology descriptions that may include offensive techniques.",
+      "added_date": "2024-04-01"
+    }
+  }
+}

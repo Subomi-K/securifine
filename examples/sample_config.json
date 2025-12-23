@@ -1,0 +1,16 @@
+{
+  "model_url": null,
+  "model_api_key": null,
+  "model_name": "default",
+  "default_output_format": "json",
+  "registry_path": null,
+  "hook_configs": {},
+  "evaluation_timeout": 60,
+  "max_file_size": 1073741824,
+  "max_entries": 1000000,
+  "log_level": "WARNING",
+  "max_retries": 3,
+  "severe_regression_threshold": 0.15,
+  "significant_decrease_threshold": 0.05,
+  "minor_decrease_threshold": 0.02
+}

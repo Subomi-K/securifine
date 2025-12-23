@@ -1,0 +1,68 @@
+{
+  "deepteam": {
+    "tool_name": "deepteam",
+    "command": [
+      "deepteam",
+      "evaluate",
+      "--input",
+      "{input_file}",
+      "--output-format=json"
+    ],
+    "timeout_seconds": 600,
+    "input_format": "json",
+    "output_format": "json",
+    "working_directory": null,
+    "environment": {}
+  },
+  "pyrit": {
+    "tool_name": "pyrit",
+    "command": [
+      "python",
+      "pyrit_evaluate.py",
+      "--input",
+      "{input_file}"
+    ],
+    "timeout_seconds": 600,
+    "input_format": "json",
+    "output_format": "json",
+    "working_directory": null,
+    "environment": {
+      "PYRIT_LOG_LEVEL": "INFO"
+    }
+  },
+  "custom_scanner": {
+    "tool_name": "custom_scanner",
+    "command": [
+      "/usr/local/bin/security-scanner",
+      "--mode",
+      "evaluate",
+      "--format",
+      "json",
+      "--input",
+      "{input_file}"
+    ],
+    "timeout_seconds": 300,
+    "input_format": "json",
+    "output_format": "json",
+    "working_directory": "/opt/security-tools",
+    "environment": {
+      "SCANNER_CONFIG": "/etc/scanner/config.json",
+      "SCANNER_VERBOSE": "0"
+    }
+  },
+  "text_analyzer": {
+    "tool_name": "text_analyzer",
+    "command": [
+      "python3",
+      "-m",
+      "text_analyzer",
+      "--input",
+      "{input_file}"
+    ],
+    "timeout_seconds": 120,
+    "input_format": "json",
+    "output_format": "text",
+    "working_directory": null,
+    "environment": {}
+  }
+}
